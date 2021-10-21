@@ -20,7 +20,7 @@ export const skillsData = [{
     name: 'Bootstrap',
     rating: 65
   }, {
-    name: 'Material UI',
+    name: 'MongoDB',
     rating: 30
   },];
   
