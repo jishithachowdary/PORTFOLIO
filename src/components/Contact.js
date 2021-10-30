@@ -54,15 +54,15 @@ const Contact = () => {
               Lets <br />Work <br /> Together!
             </h2>
             <div className="mt-3 mb-3 pr-lg-5 pr-xs-3">
-              <Button className="contact-btns bg-custom-blue mr-2 shadow border-0 py-1">
+              <Button className="contact-btns bg-custom-blue mr-2 shadow border-0 py-1 " >
                 <FontAwesomeIcon size="1x" icon={faPhoneAlt} /><span><a href="tel:+918688626111" className="text-link">Phone</a></span>
-              </Button>
-              <Button className="contact-btns bg-custom-blue mr-2 shadow border-0 py-1 px-2" onClick={() => window.open('mailto:nemanijc@gmail.com?subject="Hello !"', '_blank')}>
+              </Button><span> </span>
+              <Button className="contact-btns bg-custom-blue mr-2 shadow border-0 py-1" onClick={() => window.open('mailto:nemanijc@gmail.com?subject="Hello !"', '_blank')}>
                 <FontAwesomeIcon size="1x" icon={faEnvelope} /><span>Email</span>
-              </Button>
-              <Button className="contact-btns bg-custom-blue shadow border-0 py-1" onClick={() => window.open('https://www.linkedin.com/in/jishitha-chowdary-nemani-485925120', '_blank')}>
+              </Button><span> </span>
+              <Button className="contact-btns bg-custom-blue mr-2 shadow border-0 py-1" onClick={() => window.open('https://www.linkedin.com/in/jishitha-chowdary-nemani-485925120', '_blank')}>
                 <FontAwesomeIcon size="1x" icon={faLinkedinIn} /><span>Linkedin</span>
-              </Button>
+              </Button><span> </span>
             </div>
           </Col>
           <Particles />
